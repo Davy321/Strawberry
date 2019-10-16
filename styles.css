@@ -1,0 +1,476 @@
+* {
+
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+	
+	margin: 0;
+	background-image: url(images/pinkbackground.jpg);
+	background-color: rgba(255,255,255,0.7);
+	background-blend-mode: lighten;
+
+	font-family: 'Mansalva', cursive;
+}
+
+div {
+	/*border-style: solid;
+	border-width: 3px;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	border-radius: 45px;
+	border-style: double;
+	border-width: 6px;
+	padding: 10px;
+	
+	font-size: calc(20px + 0.5vw);
+	background-color: rgba(255,255,255,0.9);
+}
+
+p a:hover {
+	text-decoration: underline;
+	color: #ed2424;
+}
+
+
+	  
+.header {
+	
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	border-bottom-color: white;
+	
+	grid-area: header;
+	background-image: url(images/strawberr.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+
+	width: 100%;
+	
+	
+	position: relative;
+	height: calc(500px + 41vh);
+	
+	
+	
+	
+}
+
+.topnav {
+	background-color: rgba(255,255,255,0.8);
+	overflow: hidden;
+  	grid-area: topnav;
+
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgba
+  color: white;
+}
+
+.typography {
+	padding: 0 20px 0 20px;
+	text-align: center;
+	position: relative;
+	top: 34%;
+	margin: auto;
+	
+	width: 40vw;	
+	background-color: rgba(255,255,255,0.88);
+	background-blend-mode: lighten;
+}
+
+#typo1{
+	font-family: 'Qwigley', cursive;
+	font-size: 6vw;
+}
+
+#typo2{
+	margin-top: -0.4em;
+	font-family: 'Finger Paint', cursive;
+	font-size: 6vw;
+}
+
+.abstract {
+	grid-area: abstract;
+	
+	text-align: center;
+	align-self: center;
+	padding-left: 7vw;
+	
+	height: calc(500px + 45vh);
+	
+	
+}
+
+#abstracttitlep {
+	transform: rotate(352deg);
+	border-radius: 45px;
+	border-style: double;
+	border-width: 6px;
+	
+	background-color: rgba(255,255,255,0.75);
+	margin: auto;
+	
+	position: relative;
+	margin-top: 15vh;
+	
+	font-size: 8vw;	
+	width: 34vw;
+
+	font-family: 'Mansalva', cursive;
+
+}
+
+#abstractp {
+	transform: rotate(3deg);
+	padding: 1vw;
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	font-size: calc(20px + 0.6vw);
+	position: relative;
+	top: 36%;
+	margin: auto;
+	margin-top: -200px;
+	background-color: rgba(255,255,255,0.9);
+	
+	font-family: 'Mansalva', cursive;
+}
+
+#poptart {
+	
+	transform: rotate(280deg);
+	border-radius: 65px;
+	border-style: double;
+	border-width: 6px;
+	border-color: black;
+	grid-area: poptart;
+	margin: auto;
+	
+	width: calc(100px + 30vw);
+}
+
+.introhead {
+	
+	grid-area: introhead;
+	height: calc(250px + 20vh);
+	
+}
+
+#introtitle {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	background-color: rgba(255,255,255,0.9);
+	
+	font-size: 4.5vw;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 4vh;
+	
+	width: 33vw;
+	font-family: 'Mansalva', cursive;
+}
+
+#introp {
+	border-radius: 45px;
+	border-style: double;
+	border-width: 6px;
+	padding: 10px;
+	
+	font-size: 1.5vw;
+	text-align: left;
+	width: 80%;
+	margin: auto;
+	
+	background-color: rgba(255,255,255,0.9);
+	font-family: 'Mansalva', cursive;
+}
+
+.intro1t {
+	grid-area: intro1t;
+	
+	font-size: 2.5vw;
+	margin-left: 2vw;
+}
+
+.intro1 {
+	grid-area: intro1;
+	height:90vh;
+	
+	
+}
+
+#intro1p {
+	text-align: center;
+	font-size: 1.3vw;
+	margin: auto;
+	
+	border: none;
+	background-color: rgba(255,255,255,0);
+}
+
+#toaster {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	
+	width: 23vw;
+	margin: auto;
+	display: block;
+	margin: auto;
+}
+
+.intro2 {
+	grid-area: intro2;
+	height:90vh;
+	
+}
+
+#intro2p {
+	text-align: center;
+	font-size: 1.25vw;
+	margin: auto;
+	padding-bottom: 4.5vh;
+	
+	border: none;
+	background-color: rgba(255,255,255,0);
+}
+
+#donut {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	
+	
+	
+	width: 23vw;
+	display: block;
+	margin: auto;
+}
+
+.intro3 {
+	grid-area: intro3;
+	height:90vh;
+	
+}
+
+#intro3p {
+	text-align: center;
+	font-size: 1.3vw;
+	margin: auto;
+	
+	border: none;
+	background-color: rgba(255,255,255,0);
+}
+
+#fire {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	
+
+	width: 16vw;
+	display: block;
+	margin: auto;
+}
+
+.intro4 {
+	grid-area: intro4;
+	height:90vh;
+	
+}
+
+#intro4p {
+	text-align: center;
+	font-size: 1.3vw;
+	margin: auto;
+	
+	border: none;
+	background-color: rgba(255,255,255,0);
+}
+
+#sign1 {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	
+	display: block;
+	width: 17vw;
+	margin: auto;
+}
+
+.prep1 {
+	grid-area: prep1;
+	
+}
+
+#prep1t {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	background-color: rgba(255,255,255,0.9);
+	
+	font-size: 4.5vw;
+	margin-left: 4vw;
+	width: 47vw;
+}
+
+#prep1p {
+	width: 52vw;
+	margin-left: 2vw;
+}
+
+#f1d {
+	grid-area: f1d;
+	text-align: center;
+	
+}
+
+#f1 {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	width: calc(100px + 15vw);
+}
+
+.prep2 {
+	grid-area: prep2;
+}
+
+#f2d {
+	grid-area: f2d;
+}
+
+#f2 {
+		border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+}
+@media only screen and (max-width: 675px) {
+
+div.grid-container{
+	
+	display: grid;
+	grid-auto-columns: 100%;
+	grid-template-areas:
+	  'topnav'
+	  'header'
+	  'abstract'
+	  'poptart'
+	  'introhead'
+	  'intro1t'
+	  'intro1'
+	  'intro2'
+	  'intro3'
+	  'intro4'
+	  'prep1'
+	  'f1d'
+	  'prep2'
+	  'f2d'
+	  'experiment'
+	  'summary'
+	  'footer';
+	}
+	
+	.abstract {
+	grid-area: abstract;
+	
+	text-align: center;
+	align-self: center;
+	padding-left: 1vw;
+	
+	height: calc(500px + 45vh);
+	
+	margin-bottom: 0;
+	}
+	
+	#abstracttitlep {
+	margin-top: 8vh;
+	font-size: 16vw;	
+	width: 68vw;
+	font-family: 'Mansalva', cursive;
+	}
+
+	#abstractp {
+	width: 85vw;
+	}
+	
+	#poptart {
+		width: 80vw;
+	}
+
+}
+.grid-container{
+	display: grid;
+	grid-auto-columns: 25%;
+
+	grid-template-areas:
+	  'topnav topnav topnav topnav'
+	  'header header header header'
+	  'abstract abstract poptart poptart'
+	  'abstract abstract poptart poptart'
+	  'introhead introhead introhead introhead'
+	  'intro1t intro1t intro1t intro1t'
+	  'intro1 intro2 intro3 intro4'
+	  'prep1 prep1 f1d f1d'
+	  'f2d f2d prep2 prep2'
+	  'experiment experiment experiment experiment'
+	  'summary summary summary summary'
+	  'footer footer footer footer';
+	}
+
+
+.experiment {
+	grid-area: experiment;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
+	
+}
+
+.summary {
+	grid-area: summary;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
+	
+	height: 20vh;
+}
+
+.footer {
+	grid-area: footer;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
+	
+	height: 20vh;
+}
