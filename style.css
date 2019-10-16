@@ -17,7 +17,7 @@ body {
 	background-image: url(images/pinkbackground.jpg);
 	background-color: rgba(255,255,255,0.7);
 	background-blend-mode: lighten;
-
+	font-size: calc(20px + 0.5vw);
 	font-family: 'Mansalva', cursive;
 }
 
@@ -36,7 +36,6 @@ p {
 	border-width: 6px;
 	padding: 10px;
 	
-	font-size: calc(20px + 0.5vw);
 	background-color: rgba(255,255,255,0.9);
 }
 
@@ -179,9 +178,10 @@ p a:hover {
 }
 
 .introhead {
-	
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
 	grid-area: introhead;
-	height: calc(250px + 20vh);
 	
 }
 
@@ -205,8 +205,6 @@ p a:hover {
 	border-style: double;
 	border-width: 6px;
 	padding: 10px;
-	
-	font-size: 1.5vw;
 	text-align: left;
 	width: 80%;
 	margin: auto;
@@ -218,7 +216,7 @@ p a:hover {
 .intro1t {
 	grid-area: intro1t;
 	
-	font-size: 2.5vw;
+	font-size: calc(30px + 1vw);
 	margin-left: 2vw;
 }
 
@@ -231,7 +229,6 @@ p a:hover {
 
 #intro1p {
 	text-align: center;
-	font-size: 1.3vw;
 	margin: auto;
 	
 	border: none;
@@ -257,7 +254,6 @@ p a:hover {
 
 #intro2p {
 	text-align: center;
-	font-size: 1.25vw;
 	margin: auto;
 	padding-bottom: 4.5vh;
 	
@@ -279,13 +275,12 @@ p a:hover {
 
 .intro3 {
 	grid-area: intro3;
-	height:90vh;
+
 	
 }
 
 #intro3p {
 	text-align: center;
-	font-size: 1.3vw;
 	margin: auto;
 	
 	border: none;
@@ -305,13 +300,11 @@ p a:hover {
 
 .intro4 {
 	grid-area: intro4;
-	height:90vh;
 	
 }
 
 #intro4p {
 	text-align: center;
-	font-size: 1.3vw;
 	margin: auto;
 	
 	border: none;
@@ -377,6 +370,10 @@ p a:hover {
 }
 @media only screen and (max-width: 675px) {
 
+body{
+	font-size: calc(20px + 0.7vw);
+}
+
 div.grid-container{
 	
 	display: grid;
@@ -402,18 +399,20 @@ div.grid-container{
 	}
 	
 	.abstract {
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 3px;
 	grid-area: abstract;
 	
 	text-align: center;
 	align-self: center;
-	padding-left: 1vw;
 	
-	height: calc(500px + 45vh);
-	
-	margin-bottom: 0;
+	height: calc(200px + 35vh);
+	padding:20px;
 	}
 	
 	#abstracttitlep {
+	transform: rotate(0deg);
 	margin-top: 8vh;
 	font-size: 16vw;	
 	width: 68vw;
@@ -421,13 +420,48 @@ div.grid-container{
 	}
 
 	#abstractp {
+		transform: rotate(0deg);
 	width: 85vw;
 	}
 	
 	#poptart {
+		transform: rotate(180deg);
 		width: 80vw;
 	}
+	
+	#introtitle {
+		font-size: 14vw;
+		width: 88vw;
+	}
+	
+	#toaster {
+		width: 85vw;
+	}
+	#donut {
+		width: 85vw;
+	}
+	#fire {
+		width: 85vw;
+	}
+	#sign1 {
+		width: 85vw;
+	}
+	
+	#prep1t {
+	border-radius: 25px;
+	border-style: double;
+	border-width: 6px;
+	background-color: rgba(255,255,255,0.9);
+	
+	font-size: 4.5vw;
+	margin-left: 4vw;
+	width: 85vw;
+}
 
+#prep1p {
+	width: 85vw;
+	margin-left: 2vw;
+}
 }
 .grid-container{
 	display: grid;
